@@ -1,0 +1,94 @@
+header {
+
+    background: darkblue;
+    color: white;
+
+}
+
+div h1 {
+    margin: 0;
+    padding-top: 20px
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gochi Hand';
+    font-size: 52px;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    padding-right: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: #FEFFA5;
+}
+
+a:visited {
+    color: goldenrod;
+}
+
+a:active {
+    color: #FEFFA5;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section {
+    margin-bottom: 75px;
+}
+
+section#home {
+    margin-top: 75px;
+}
+
+h2 {
+
+    font-family: 'Montserrat';
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+
+
+
+@media all and (min-width: 600px) {
+    section#home {
+        margin-top: 75px;
+    }
+
+    main {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
